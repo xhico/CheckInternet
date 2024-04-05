@@ -54,9 +54,11 @@ Have you ever wanted an automated way to check internet connectivity and reboot 
 2. If the internet is not available, the script will trigger a system reboot.
 
 ## Logging
+
 The script logs events and errors for better diagnostics. You can find the log file at CheckInternet.log in the same directory as the script.
 
 ## Error Handling
+
 If an error occurs during script execution, an email notification with the error details will be sent using the sendEmail function.
 
 ## Contributing

@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python3
 
+import logging
 import os
 import time
 import traceback
-import logging
 import urllib.request
 
-from Misc import get911, sendEmail
+from Misc import sendEmail
 
 
 def check_internet():
